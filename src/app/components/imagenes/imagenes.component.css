@@ -12,3 +12,20 @@ h1{
 p{
     margin: 10px 0px 10px 10px;
 }
+
+button{
+    width: 120px;
+    height: 120px;
+    margin: 30px;
+    background-color:#1a678d;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro";
+    border: 1px solid #1a678d;
+    font-size: 50px;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #1a678d;
+    border: 1px solid #1a678d;
+}
