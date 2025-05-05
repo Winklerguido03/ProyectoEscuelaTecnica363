@@ -1,0 +1,28 @@
+.fondo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/img/tecnica.PNG);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.titulo h2{
+    font-family:"Montserrat";
+    font-size: 70px;
+    font-weight:200;
+}
+
+.parrafo{
+    margin-top:0px;
+    font-family:"Roboto";
+    font-weight: 400;
+}
+
+div p{
+    font-family:'Roboto';
+    font-weight: 400;
+}

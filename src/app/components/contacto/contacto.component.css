@@ -1,0 +1,65 @@
+.contenedorContacto{
+    width: 100%;
+    height: 100%;
+}
+
+.formularioContacto{
+    padding: 20px 0px 30px 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+}
+
+input{
+    width: 365px;
+    height: 45px;
+    border: 1px solid rgb(205, 205, 205);
+}
+
+textarea{
+    width: 365px;
+    height: 250px;
+    border: 1px solid rgb(205, 205, 205);
+}
+
+button{
+    width:365px;
+    background-color:#1a678d;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: "Source Sans Pro";
+    border: 1px solid #1a678d;
+    margin-top:20px;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #1a678d;
+    border: 1px solid #1a678d;
+}
+
+@media screen and (max-width:700px){
+    .formularioContacto{
+        padding: 20px 0px 30px 120px;
+    }
+
+    button{
+        margin:20px 0px 30px 0px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .formularioContacto{
+        padding: 20px 0px 30px 80px;
+    }
+
+    button{
+        margin:20px 0px 30px 0px;
+    }
+}

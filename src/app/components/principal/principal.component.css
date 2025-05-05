@@ -1,0 +1,119 @@
+/*section1*/
+.fondo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/img/tecnica.PNG);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.titulo h2{
+    font-family:"Montserrat";
+    font-size: 70px;
+    font-weight:200;
+}
+
+.parrafo1{
+    margin-top:0px;
+    font-family:"Roboto";
+    font-weight: 400;
+}
+
+
+/*section2*/
+.contenedorHistoria{
+    width:100%;
+    height: 520px;
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(200, 200, 200);
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../../../assets/img/papel.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 80px 80px 80px;
+}
+
+.tituloHistoria{
+    font-family: Montserrat;
+    padding: 0px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.6), 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.parrafo2{
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+    text-align: justify;
+}  
+
+
+@media screen and (max-width:700px) {
+    .contenido{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .contenido{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .imgHistoria{
+        display: none;
+    }
+}
+/*section3*/
+.contenedorOfertaEducativa{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.ofertaEducativa{
+    font-family:Montserrat;
+    text-align: center;
+    color: white;
+}
+
+button{
+    background-color: rgb(54, 74, 250);
+    color: white;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width:700px) {
+    .botones{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+}

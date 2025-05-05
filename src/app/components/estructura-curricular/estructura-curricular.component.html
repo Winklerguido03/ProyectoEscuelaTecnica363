@@ -1,0 +1,20 @@
+<div class="contenedorEstructura">
+  <div class="estructura">
+    <p class="ec">ESTRUCTURA CURRICULAR</p>
+    <p class="tecnico">TÉCNICO EN INDUSTRIAS DE PROCESOS</p>
+    
+    <p>MATERIAS DE FORMACIÓN GENERAL:</p>
+    <div class="materias" *ngFor="let materia of listaMateriasTecnico">
+      <p class="materia">
+        Materia: {{materia.nombre}}<br>
+        Años: {{materia.anios}}
+      </p>
+    </div>
+    <p>MATERIAS DE FORMACIÓN ESPECÍFICO-TECNOLÓGICA</p>
+    <p>MATERIAS DE FORMACIÓN TÉCNICA ESPECÍFICA</p>
+    <p>PRACTICAS PROFESIONALIZANTES</p>
+  </div>
+</div>
+
+
+
