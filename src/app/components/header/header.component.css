@@ -9,8 +9,12 @@ nav{
     background-color: rgb(240,240,240);
 }  
 
+ul{
+    margin: 0px 0px 0px 300px;
+}
+
 li{
-    margin: 10px;
+    margin: 10px 20px 10px 20px;
     font-family: "Source Sans Pro";
     font-weight: bold;
     color: rgb(rgb(0, 0, 0));
