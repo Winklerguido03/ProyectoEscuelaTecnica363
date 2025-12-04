@@ -1,0 +1,15 @@
+[{
+    "id":1,
+    "carrera":"BACHILLER EN CIENCIAS NATURALES",
+    "duracion":"5 años",
+    "formacion":"Formación en biología, química, física y matemáticas",
+    "planDeEstudios":"assets/img/PlanEstudiosBachiller.PNG"
+},
+{
+  "id":2,
+    "carrera":"TECNICO EN INDUSTRIAS DE PROCESOS",
+    "duracion":"6 años",
+    "formacion":"Formación en procesos industriales, control de calidad, seguridad y mantenimiento de equipos.",
+    "planDeEstudios":"assets/img/PlanEstudiosTecnico.PNG"  
+}
+]

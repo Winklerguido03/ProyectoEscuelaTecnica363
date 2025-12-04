@@ -4,7 +4,7 @@ import { ContactoComponent } from './features/contacto/contacto.component';
 import { PrincipalComponent } from './features/principal/principal.component';
 import { NoticiasComponent } from './features/noticias/noticias.component';
 import { ImagenesComponent } from './features/imagenes/imagenes.component';
-import { AdministracionComponent } from './components/administracion/administracion.component';
+import { AdministracionComponent } from './features/administracion/administracion.component';
 
 export const routes: Routes = [
     {path:"",redirectTo:"Principal",pathMatch:"full"},
