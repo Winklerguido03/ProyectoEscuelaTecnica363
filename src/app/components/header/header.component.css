@@ -50,3 +50,36 @@ button:hover{
     color: #1a678d;
     border: 1px solid #1a678d;
 }
+
+@media screen and (max-width:500px) {
+    .navbar-nav{
+        margin: 0px 0px 0px 200px;
+    }
+    
+    .btnAdmin{
+        margin: 0px 0px 0px 200px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .navbar-nav{
+       margin: 0px 0px 0px 0px;
+    }
+    li{
+       margin-left:0px ;
+    }
+    .btnAdmin{
+       margin-left: 0px;
+    }
+  }
+
+@media screen and (max-width:1280px) {
+    ul{
+        margin: 0px 0px 0px 50px;
+    }
+    
+    .btnAdmin{
+        margin: 0px 0px 0px 0px;
+    }
+}
+
