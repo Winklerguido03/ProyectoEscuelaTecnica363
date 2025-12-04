@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { HeaderComponent } from "./components/header/header.component";
-import { FooterComponent } from "./components/footeer/footer.component";
-import { ContactoComponent } from './components/contacto/contacto.component';
-import { PrincipalComponent } from "./components/principal/principal.component";
-import { ImagenesComponent } from "./components/imagenes/imagenes.component";
+import { HeaderComponent } from "./shared/header/header.component";
+import { FooterComponent } from "./shared/footeer/footer.component";
+import { ContactoComponent } from './features/contacto/contacto.component';
+import { PrincipalComponent } from "./features/principal/principal.component";
+import { ImagenesComponent } from "./features/imagenes/imagenes.component";
 
 @Component({
   selector: 'app-root',

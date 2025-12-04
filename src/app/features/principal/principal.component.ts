@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from "../header/header.component";
-import { FooterComponent } from "../footeer/footer.component";
+import { HeaderComponent } from "../../shared/header/header.component";
+import { FooterComponent } from "../../shared/footeer/footer.component";
 
 @Component({
   selector: 'app-principal',
